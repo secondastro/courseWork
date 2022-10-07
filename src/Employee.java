@@ -6,9 +6,9 @@ public class Employee {
     private int unit;
     private int salary;
 
-    public int id;
+    private int id;
 
-    public static int counter = 0;
+    private static int counter = 0;
 
 
     public Employee(String name, int unit, int salary) {
